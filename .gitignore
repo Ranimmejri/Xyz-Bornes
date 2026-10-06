@@ -1,0 +1,42 @@
+# .NET
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# Build
+artifacts/
+TestResults/
+
+# Logs
+*.log
+
+# User-specific files
+*.user
+*.rsuser
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration
+appsettings.Local.json
+appsettings.Development.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
