@@ -2,4 +2,5 @@
   <Project Path="Xyz.Bornes.Domaine/Xyz.Bornes.Domaine.csproj" />
   <Project Path="Xyz.Bornes.Infrastructure/Xyz.Bornes.Infrastructure.csproj" />
   <Project Path="Xyz.Bornes.Simulateur/Xyz.Bornes.Simulateur.csproj" />
+  <Project Path="Xyz.Bornes.Tests/Xyz.Bornes.Tests.csproj" />
 </Solution>
