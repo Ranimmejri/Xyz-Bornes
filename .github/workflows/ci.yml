@@ -31,3 +31,6 @@ jobs:
 
       - name: Test
         run: dotnet test Xyz.Bornes.Tests/Xyz.Bornes.Tests.csproj --configuration Release --no-build
+
+      - name: Build Docker image
+        run: docker build -t xyz-bornes-simulateur .
