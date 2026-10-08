@@ -17,6 +17,7 @@ FROM mcr.microsoft.com/dotnet/runtime:8.0 AS final
 WORKDIR /app
 
 RUN apt-get update \
+    && apt-get upgrade -y \
     && apt-get install -y --no-install-recommends libgssapi-krb5-2 \
     && rm -rf /var/lib/apt/lists/*
 
